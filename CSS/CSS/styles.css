@@ -1,1 +1,44 @@
-body {font-family: 'Inter', sans-serif;}
+:root{
+    --color-bg:#ffff ;
+--color-blue:#043873;
+--color-blue-light:#C4DEFD;
+--color-yelow-light:#FFE492;
+--color-grey:#cccc;
+
+--color-text:#212529;
+--color-white:#fff;
+--font-inter:'Inter', sans-serif;
+}
+/*------------------------------------*\
+  #SECTION-GLOBAL
+\*------------------------------------*/
+html {box-sizing: border-box;}
+img {
+  max-width: 100%;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+textarea {
+  white-space: revert;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*------------------------------------*\
+  #SECTION-GLOBAL
+\*------------------------------------*/
+body {font-family: var(--font-inter);
+    font-size: 1.125rem;
+    line-height: 1.5em;
+}
